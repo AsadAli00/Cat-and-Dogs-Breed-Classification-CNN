@@ -1,0 +1,17 @@
+# Ignore everything in the project root by default
+/*
+
+# ...except the code, docs, results and report
+!.gitignore
+!*.py
+!README.md
+!LICENSE
+!requirements.txt
+!outputs/
+
+* report/
+# Never push these, even inside kept folders
+__pycache__/
+*.pyc
+
+# Excluded folders: data/, other/, .vscode/, report/
